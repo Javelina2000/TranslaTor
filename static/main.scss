@@ -1,0 +1,18 @@
+
+@import '../bootstrap/scss/functions';
+@import '../bootstrap/scss/variables';
+
+
+.content-wrapper {
+    min-height: 80vh;
+}
+
+@media (max-width: 575px) {
+    .navbar-nav {
+        li {
+            border-left: none !important;
+        }
+    }
+}
+
+@import '../bootstrap/scss/bootstrap.scss';
